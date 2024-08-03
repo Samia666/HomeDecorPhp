@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url("bc.jpg"); width :100%;
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #a50f2d;
+}
+
+.logo img {
+    max-height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #333;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .btn {
+    background-color: #a50f2d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 1.66%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #87454e;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
